@@ -36,3 +36,11 @@ msgToouser.set(user1, jM);
 msgToouser.set(user2 ,jaM);
 
 const getUserMsg = (u) => msgToouser.get(u);
+
+
+
+ 
+
+for(const item of vocabulary.keys()){
+  console.log(item);
+}
