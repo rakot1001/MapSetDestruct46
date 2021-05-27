@@ -41,10 +41,9 @@ const { color, ...restOfMonitor } = monitor;
 const nums = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10];
 const [first, second, ...rest] = nums;
 
-function getFullName(firstname, lastname) {
+function getFullName({firstname, lastname}) {
   return `${firstname} ${lastname}`;
 }
-function getMonitorInfo(monitor) {
-  const { dpi, color } = monitor;
+function getMonitorInfo( {dpi, color}) {
   return `${dpi} ${color}`;
 }
